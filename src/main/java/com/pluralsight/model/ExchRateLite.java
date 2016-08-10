@@ -1,7 +1,6 @@
 package com.pluralsight.model;
 
 import java.math.BigDecimal;
-import java.util.Currency;
 import java.util.Date;
 
 /**
@@ -9,7 +8,7 @@ import java.util.Date;
  */
 public class ExchRateLite {
     private String memberId;
-    private Currency srcCurr;
+    private String srcCurr;
     private String dstCurr;
     private String tableCode;
     private BigDecimal buyRate;
@@ -27,11 +26,11 @@ public class ExchRateLite {
         this.memberId = memberId;
     }
 
-    public Currency getSrcCurr() {
+    public String getSrcCurr() {
         return srcCurr;
     }
 
-    public void setSrcCurr(Currency srcCurr) {
+    public void setSrcCurr(String srcCurr) {
         this.srcCurr = srcCurr;
     }
 

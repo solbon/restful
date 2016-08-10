@@ -1,0 +1,12 @@
+{ 
+    "memberId":"bpn",
+    "srcCurr":"985",
+    "dstCurr":"978",
+    "tableCode":"table1",
+    "buyRate":4.35,
+    "sellRate":4.45,
+    "avgRate":4.40,
+    "rateDate":"2016-08-08T09:10:15",
+    "effectiveDate":"2016-08-08T10:10:15",
+    "expiredDate":"2018-08-09T09:10:15"
+}
